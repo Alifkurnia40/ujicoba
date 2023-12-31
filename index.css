@@ -1,0 +1,151 @@
+.navbar-brand img{
+    height: 40px;
+    padding-left: 25px;
+}
+footer{
+    background-color: azure;
+    bottom: -400;
+    padding-top: 2px;
+    position: absolute;
+     width: 100%;
+    height: min-content;
+    line-height: max-content;
+}
+form{
+    padding-top:30px;
+    width: 30%;
+}
+.isi{
+    padding-top: 30px;
+}
+.erp{
+    padding-bottom: 30px;
+}
+.penjelasan{
+    float: left;
+    width: 40%;
+}
+.gambar{
+    float: right;
+    width: 60%;
+    padding: 50px;
+    justify-content: center;
+}
+gambar img{
+    width: 200px;
+    
+}
+.form-cari{
+    float: right;
+    padding-bottom: 10px;
+    width: 50%;
+}
+.fitur1{
+    display: flex;
+    flex-wrap: wrap; 
+    /* flex-wrap untuk membuat kontennya sebaris */
+     justify-content: center; 
+    /* justify-content untuk mensejajarkan setiap items yang ada pada flex container.--> */
+    align-items: center;
+    /* align-items untuk mengatur posisi kontent */
+    padding: 10px;
+    /* flex-direction: column-reverse; */
+    /* flex-flow: wrap-reverse; */
+    border-radius: 100px;
+    
+}
+.selamat{
+    padding-bottom: 60px;
+}
+.isi2 img{
+    width: 40%;
+}
+.fitur{
+    background-color: blanchedalmond;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 20px;
+
+}
+.fitur:nth-of-type(9){
+    flex-grow: 1;
+    /* flex grow untuk menentukan lebar dari kontent */
+}
+.fitur img{
+    width: 100px;
+    
+}
+.fitur:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.teks{
+    display: flex;
+    flex-wrap: wrap; 
+    /* flex-wrap untuk membuat kontennya sebaris */
+     justify-content: center; 
+    /* justify-content untuk mensejajarkan setiap items yang ada pada flex container.--> */
+    align-items: center;
+    /* align-items untuk mengatur posisi kontent */
+    margin-top: 40px;
+    padding: 10px;
+    /* flex-direction: column-reverse; */
+    /* flex-flow: wrap-reverse; */
+    background-color: yellow;
+    border-top-right-radius: 300px;
+}
+.logo{
+    width: 40%;
+}
+.logo img{
+    justify-content: center; 
+    /* justify-content untuk mensejajarkan setiap items yang ada pada flex container.--> */
+    align-items: center;
+}
+.bagaimana{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.item{
+    background-color: blanchedalmond;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 20px;
+
+}
+.item:nth-of-type(9){
+    flex-grow: 1;
+    /* flex grow untuk menentukan lebar dari kontent */
+}
+.item img{
+    width: 300px;
+    border-radius: 30px;
+    
+}
+footer{
+    background-color: gray;
+    margin-top: 40px;
+}
+.medsos img{
+    width:40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.medsos{
+    width: 40%;
+    float: left;
+}
+.lgo{
+    width: 60%;
+    float: right;
+    align-items: flex-end;
+}
+.medsos a img :hover{
+    width: 50px;
+}
+.isi-2{
+    background-color: aliceblue;
+    padding: 20px;
+    border-bottom-right-radius: 50px;
+
+}
